@@ -10,4 +10,10 @@ public class JhooqDockerDemoController {
     public String hello() {
         return "Hello - World(Spring Boot app)!";
     }
+
+    @GetMapping("/saurav")
+    public String helloSaurav() {
+        return "Hello, Saurav!";
+    }
 }
+
