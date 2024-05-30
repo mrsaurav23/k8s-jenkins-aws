@@ -8,12 +8,7 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello - World(Spring Boot app)!";
-    }
-
-    @GetMapping("/saurav")
-    public String helloSaurav() {
-        return "Hello, Saurav!";
+        return "saurav - World(Spring Boot app)!";
     }
 }
 
